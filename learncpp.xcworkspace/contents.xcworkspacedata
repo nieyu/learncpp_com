@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:s_04_compound_types/s_04_compound_types.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:07_Functions/07_Functions.xcodeproj">
    </FileRef>
 </Workspace>
