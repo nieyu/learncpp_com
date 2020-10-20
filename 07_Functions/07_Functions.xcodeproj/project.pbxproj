@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		518867D5253F2FE2008A4C8B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 518867D4253F2FE2008A4C8B /* main.cpp */; };
 		51EA7F282523883A00C3BDAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51EA7F272523883A00C3BDAC /* main.cpp */; };
 		51EA7F3A25238C1D00C3BDAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51EA7F3925238C1C00C3BDAC /* main.cpp */; };
 		6E2D98052522E93200B0153A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D98042522E93200B0153A /* main.cpp */; };
@@ -35,6 +36,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		518867D0253F2FE2008A4C8B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		51EA7F232523883A00C3BDAC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +273,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		518867D2253F2FE2008A4C8B /* 07_16_lambda_captures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 07_16_lambda_captures; sourceTree = BUILT_PRODUCTS_DIR; };
+		518867D4253F2FE2008A4C8B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		51EA7F252523883A00C3BDAC /* 07_05_inline_function */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 07_05_inline_function; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EA7F272523883A00C3BDAC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		51EA7F3725238C1C00C3BDAC /* 07_06_function_overloading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 07_06_function_overloading; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -316,6 +328,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		518867CF253F2FE2008A4C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51EA7F222523883A00C3BDAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,6 +513,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		518867D3253F2FE2008A4C8B /* 07_16_lambda_captures */ = {
+			isa = PBXGroup;
+			children = (
+				518867D4253F2FE2008A4C8B /* main.cpp */,
+			);
+			path = 07_16_lambda_captures;
+			sourceTree = "<group>";
+		};
 		51EA7F262523883A00C3BDAC /* 07_05_inline_function */ = {
 			isa = PBXGroup;
 			children = (
@@ -578,6 +605,7 @@
 				6E60A0CD253E986D003696F9 /* 07_15_introduction_to_lambdas_anonymous_functions */,
 				6E7FFFD9253ECD0A00B9C40F /* 07_15_introduction_to_lambdas_anonymous_functions_01 */,
 				6E7F0014253EFC2600B9C40F /* 07_15_introduction_to_lambdas_anonymous_functions_02 */,
+				518867D3253F2FE2008A4C8B /* 07_16_lambda_captures */,
 				6E45041B252172A700DAF497 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -610,6 +638,7 @@
 				6E60A0CC253E986D003696F9 /* 07_15_introduction_to_lambdas_anonymous_functions */,
 				6E7FFFD8253ECD0A00B9C40F /* 07_15_introduction_to_lambdas_anonymous_functions_01 */,
 				6E7F0013253EFC2500B9C40F /* 07_15_introduction_to_lambdas_anonymous_functions_02 */,
+				518867D2253F2FE2008A4C8B /* 07_16_lambda_captures */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -761,6 +790,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		518867D1253F2FE2008A4C8B /* 07_16_lambda_captures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518867D8253F2FE2008A4C8B /* Build configuration list for PBXNativeTarget "07_16_lambda_captures" */;
+			buildPhases = (
+				518867CE253F2FE2008A4C8B /* Sources */,
+				518867CF253F2FE2008A4C8B /* Frameworks */,
+				518867D0253F2FE2008A4C8B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 07_16_lambda_captures;
+			productName = 07_16_lambda_captures;
+			productReference = 518867D2253F2FE2008A4C8B /* 07_16_lambda_captures */;
+			productType = "com.apple.product-type.tool";
+		};
 		51EA7F242523883A00C3BDAC /* 07_05_inline_function */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51EA7F2B2523883A00C3BDAC /* Build configuration list for PBXNativeTarget "07_05_inline_function" */;
@@ -1194,6 +1240,9 @@
 			attributes = {
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					518867D1253F2FE2008A4C8B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					51EA7F242523883A00C3BDAC = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -1309,11 +1358,20 @@
 				6E60A0CB253E986D003696F9 /* 07_15_introduction_to_lambdas_anonymous_functions */,
 				6E7FFFD7253ECD0A00B9C40F /* 07_15_introduction_to_lambdas_anonymous_functions_01 */,
 				6E7F0012253EFC2500B9C40F /* 07_15_introduction_to_lambdas_anonymous_functions_02 */,
+				518867D1253F2FE2008A4C8B /* 07_16_lambda_captures */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		518867CE253F2FE2008A4C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518867D5253F2FE2008A4C8B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51EA7F212523883A00C3BDAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1517,6 +1575,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		518867D6253F2FE2008A4C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5JQ3L7DHT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		518867D7253F2FE2008A4C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5JQ3L7DHT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		51EA7F292523883A00C3BDAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2141,6 +2219,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		518867D8253F2FE2008A4C8B /* Build configuration list for PBXNativeTarget "07_16_lambda_captures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518867D6253F2FE2008A4C8B /* Debug */,
+				518867D7253F2FE2008A4C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		51EA7F2B2523883A00C3BDAC /* Build configuration list for PBXNativeTarget "07_05_inline_function" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
