@@ -16,11 +16,11 @@ void normalSort(int *arr, int length) {
     count = 0;
     std::cout << "a\n";
     for (int i{ 0 }; i < length - 1; ++i) {
-        for (int j { i }; j < length; j++) {
-            ++count;
-            if (arr[j] > arr[j + 1]) {
+        for (int j { 0 }; j < length - i - 1; j++) {
+//            ++count;
+            if (arr[j] < arr[j + 1]) {
+                ++count;
 //                ++count;
-//                std::cout << "a\n";
                 std::swap(arr[j], arr[j + 1]);
             }
         }
