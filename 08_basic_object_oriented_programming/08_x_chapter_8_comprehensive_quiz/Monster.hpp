@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <string>
 #include "MonsterType.hpp"
+#include "MonsterGenerator.hpp"
 
 class Monster {
     
@@ -34,7 +35,7 @@ private:
     int m_hitPoints{};
     std::string_view getTypeString() const;
 public:
-    Monster(Type type, std::string& name, std::string& roar, int hit_points)
+    Monster(Type type, const std::string& name, const std::string& roar, int hit_points)
     : m_type{ type }, m_name{ name }, m_roar{ roar }, m_hitPoints{ hit_points }
     {
         
@@ -42,6 +43,7 @@ public:
     
     void print() const;
     
+    friend class MonsterGenerator;
 };
 
 #endif /* Monster_hpp */

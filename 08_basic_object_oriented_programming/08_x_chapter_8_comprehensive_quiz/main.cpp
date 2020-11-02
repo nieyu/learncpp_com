@@ -8,6 +8,7 @@
 #include <iostream>
 #include "Point2d.hpp"
 #include "HelloWorld.hpp"
+#include "Monster.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -21,6 +22,9 @@ int main(int argc, const char * argv[]) {
     
     HelloWorld hello{};
     hello.print();
+    
+    Monster m{ MonsterGenerator::generateMonster() };
+    m.print();
     
     return 0;
 }
